@@ -17,7 +17,7 @@ Currently this middleware is tightly coupled with Redis. However the architectur
 
 ```javascript
 var saucierCache = require('saucier-cache')();
-var saucier = require('saucier')(saucierGet, saucierCache, templates, {});
+var saucier = require('saucier-core')(saucierGet, saucierCache, templates, {});
 ```
 
 Additionally if your Redis instance is not on `localhost`, you can pass `port`, `host`, and an `options` object when requiring this module.
@@ -26,6 +26,6 @@ Additionally if your Redis instance is not on `localhost`, you can pass `port`, 
 var saucierCache = require('saucier-cache')(123456, 'myredis' {
   auth_pass: 'mypassword'
 });
-var saucier = require('saucier')(saucierGet, saucierCache, templates, {});
+var saucier = require('saucier-core')(saucierGet, saucierCache, templates, {});
 ```
 
