@@ -1,0 +1,20 @@
+{
+  "name": "saucier-cache",
+  "version": "0.0.1",
+  "description": "Saucier Cache",
+  "main": "index.js",
+  "author": "Matthew Grill <matt@fourkitchens.com> (https://fourkitchens.com/team/matt-grill/)",
+  "maintainers": [
+    {
+      "name": "Matthew Grill",
+      "email": "matt@fourkitchens.com",
+      "url": "https://fourkitchens.com/team/matt-grill/"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "qs": "^4.0.0",
+    "redis": "^0.12.1"
+  }
+}
